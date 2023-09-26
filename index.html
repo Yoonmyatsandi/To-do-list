@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do-List</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Fira+Sans&family=Open+Sans:wght@500;600&family=Playfair+Display+SC:wght@700&family=Playfair+Display:wght@400;500&family=Poppins:wght@300;500;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+   
+
+    <div class="container">
+        <div class="to-do-list">
+            <div class="box"></div>
+            <h2 class="neon-text">
+                To-Do List
+                <img class="image" src="./images/icon2.png" alt="">
+            </h2>
+            
+            <div class="row">
+                <input type="text" id="add-task" placeholder="Add your task">
+                <a href="#" class="btn-neon" onclick="addtasklists()">
+                    Add
+                    <svg height="50" width="180">
+                      <polyline points="0,0 180,0 180,50 0,50 0,00">
+                      </polyline>
+                    </svg>
+                  </a>
+            </div>
+
+            <ul id="lists">
+           
+            </ul>
+
+        </div>
+    </div>
+
+   
+
+    <script src="./index.js"></script>
+   
+   
+</body>
+</html>
