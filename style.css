@@ -291,7 +291,7 @@ ul li .delete-button {
 @media screen and (max-width: 768px) {
   .to-do-list {
     max-width: 300px;
-    height: auto;
+    height: 720px;
     margin: 20px auto;
     padding: 20px 10px 40px;
   }
