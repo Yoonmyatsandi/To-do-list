@@ -295,4 +295,15 @@ ul li .delete-button {
     margin: 20px auto;
     padding: 20px 10px 40px;
   }
+
+  .box {
+    width: 50%;
+    height: 30px;
+    margin-top: -50px;
+  }
+
+  .neon-text {
+    margin-top: 20px;
+}
+
 }
